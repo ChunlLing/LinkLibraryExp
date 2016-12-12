@@ -9,6 +9,7 @@
 
 #include "AreaDlg.h"
 #include "CAreaDlg.h"
+#include "AveDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -25,6 +26,7 @@ BEGIN_MESSAGE_MAP(CImLinkView, CView)
 	//{{AFX_MSG_MAP(CImLinkView)
 	ON_COMMAND(ID_REGULAR, OnRegular)
 	ON_COMMAND(ID_AREA, OnArea)
+	ON_COMMAND(ID_EXTENSION, OnExtension)
 	//}}AFX_MSG_MAP
 	// Standard printing commands
 	ON_COMMAND(ID_FILE_PRINT, CView::OnFilePrint)
@@ -117,5 +119,12 @@ void CImLinkView::OnArea()
 {
 	// TODO: Add your command handler code here
 	CCAreaDlg dlg;
+	dlg.DoModal();
+}
+
+void CImLinkView::OnExtension() 
+{
+	// TODO: Add your command handler code here
+	CAveDlg dlg;
 	dlg.DoModal();
 }

@@ -42,7 +42,7 @@ ImplementationFile=ImLinkView.cpp
 Filter=C
 BaseClass=CView
 VirtualFilter=VWC
-LastObject=ID_AREA
+LastObject=ID_EXTENSION
 
 
 [CLS:CMainFrame]
@@ -91,7 +91,8 @@ Command15=ID_VIEW_STATUS_BAR
 Command16=ID_APP_ABOUT
 Command17=ID_REGULAR
 Command18=ID_AREA
-CommandCount=18
+Command19=ID_EXTENSION
+CommandCount=19
 
 [ACL:IDR_MAINFRAME]
 Type=1

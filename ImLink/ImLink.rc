@@ -141,6 +141,7 @@ BEGIN
     BEGIN
         MENUITEM "Á´½ÓRegulardll",              ID_REGULAR
         MENUITEM "Á´½ÓAreadll",                 ID_AREA
+        MENUITEM "Á´½ÓExtensiondll",            ID_EXTENSION
     END
 END
 

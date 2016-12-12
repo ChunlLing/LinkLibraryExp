@@ -132,6 +132,10 @@ SOURCE=.\AreaDlg.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\AveDlg.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\CAreaDlg.h
 # End Source File
 # Begin Source File
