@@ -49,6 +49,7 @@ protected:
 protected:
 	//{{AFX_MSG(CImLinkView)
 	afx_msg void OnRegular();
+	afx_msg void OnArea();
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };

@@ -8,6 +8,7 @@
 #include "ImLinkView.h"
 
 #include "AreaDlg.h"
+#include "CAreaDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -23,6 +24,7 @@ IMPLEMENT_DYNCREATE(CImLinkView, CView)
 BEGIN_MESSAGE_MAP(CImLinkView, CView)
 	//{{AFX_MSG_MAP(CImLinkView)
 	ON_COMMAND(ID_REGULAR, OnRegular)
+	ON_COMMAND(ID_AREA, OnArea)
 	//}}AFX_MSG_MAP
 	// Standard printing commands
 	ON_COMMAND(ID_FILE_PRINT, CView::OnFilePrint)
@@ -108,5 +110,12 @@ void CImLinkView::OnRegular()
 {
 	// TODO: Add your command handler code here
 	CAreaDlg dlg;
+	dlg.DoModal();
+}
+
+void CImLinkView::OnArea() 
+{
+	// TODO: Add your command handler code here
+	CCAreaDlg dlg;
 	dlg.DoModal();
 }

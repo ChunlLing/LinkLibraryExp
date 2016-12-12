@@ -8,18 +8,20 @@ NewFileInclude1=#include "stdafx.h"
 NewFileInclude2=#include "ImLink.h"
 LastPage=0
 
-ClassCount=6
+ClassCount=7
 Class1=CImLinkApp
 Class2=CImLinkDoc
 Class3=CImLinkView
 Class4=CMainFrame
 
-ResourceCount=3
+ResourceCount=4
 Resource1=IDD_ABOUTBOX
 Resource2=IDR_MAINFRAME
 Class5=CAboutDlg
 Class6=CAreaDlg
 Resource3=IDD_DIALOG1
+Class7=CCAreaDlg
+Resource4=IDD_DIALOG2
 
 [CLS:CImLinkApp]
 Type=0
@@ -40,7 +42,7 @@ ImplementationFile=ImLinkView.cpp
 Filter=C
 BaseClass=CView
 VirtualFilter=VWC
-LastObject=ID_REGULAR
+LastObject=ID_AREA
 
 
 [CLS:CMainFrame]
@@ -88,7 +90,8 @@ Command14=ID_VIEW_TOOLBAR
 Command15=ID_VIEW_STATUS_BAR
 Command16=ID_APP_ABOUT
 Command17=ID_REGULAR
-CommandCount=17
+Command18=ID_AREA
+CommandCount=18
 
 [ACL:IDR_MAINFRAME]
 Type=1
@@ -142,4 +145,25 @@ BaseClass=CDialog
 Filter=D
 VirtualFilter=dWC
 LastObject=CAreaDlg
+
+[DLG:IDD_DIALOG2]
+Type=1
+Class=CCAreaDlg
+ControlCount=7
+Control1=IDCANCEL,button,1342242816
+Control2=IDC_STATIC,static,1342308352
+Control3=IDC_STATIC,button,1342177287
+Control4=IDC_STATIC,static,1342308352
+Control5=IDC_INPUT,edit,1350631552
+Control6=IDC_CIRCLE,edit,1350631552
+Control7=IDC_CALU,button,1342242816
+
+[CLS:CCAreaDlg]
+Type=0
+HeaderFile=CAreaDlg.h
+ImplementationFile=CAreaDlg.cpp
+BaseClass=CDialog
+Filter=D
+VirtualFilter=dWC
+LastObject=CCAreaDlg
 
