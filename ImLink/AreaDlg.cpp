@@ -1,6 +1,8 @@
 // AreaDlg.cpp : implementation file
 //
 
+extern "C"__declspec(dllimport) double AreaSquare(double x);
+
 #include "stdafx.h"
 #include "ImLink.h"
 

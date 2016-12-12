@@ -6,7 +6,7 @@
 --------------------Configuration: ImLink - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3923.tmp" with contents
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3625.tmp" with contents
 [
 Regulardll.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImLink.pdb" /debug /machine:I386 /out:"Debug/ImLink.exe" /pdbtype:sept 
 ".\Debug\AreaDlg.obj"
@@ -17,7 +17,7 @@ Regulardll.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImLink.pd
 ".\Debug\StdAfx.obj"
 ".\Debug\ImLink.res"
 ]
-Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3923.tmp"
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3625.tmp"
 <h3>Output Window</h3>
 Linking...
 
