@@ -5,5 +5,3 @@ DESCRIPTION  'Regulardll Windows Dynamic Link Library'
 
 EXPORTS
     ; Explicit exports can go here
-	AreaEllipse @1
-	AreaSquare @2

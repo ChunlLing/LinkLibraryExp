@@ -19,8 +19,8 @@
 // See Regulardll.cpp for the implementation of this class
 //
 
-extern "C" double AreaEllipse(double r);
-extern "C" double AreaSquare(double x);
+extern "C" __declspec(dllexport) double AreaEllipse(double r);
+extern "C" __declspec(dllexport) double AreaSquare(double x);
 
 class CRegulardllApp : public CWinApp
 {

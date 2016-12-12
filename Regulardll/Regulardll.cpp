@@ -61,12 +61,12 @@ CRegulardllApp::CRegulardllApp()
 
 CRegulardllApp theApp;
 
-extern "C" double AreaEllipse(double r)
+extern "C" __declspec(dllexport) double AreaEllipse(double r)
 {
 	return 3.1415926 * r * r;
 }
 
-extern "C" double AreaSquare(double x)
+extern "C" __declspec(dllexport) double AreaSquare(double x)
 {
 	return x * x;
 }
