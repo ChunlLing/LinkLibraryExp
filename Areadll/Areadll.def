@@ -1,0 +1,7 @@
+; Areadll.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Areadll"
+DESCRIPTION  'Areadll Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
