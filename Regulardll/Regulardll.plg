@@ -6,25 +6,6 @@
 --------------------Configuration: Regulardll - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2FFA.tmp" with contents
-[
-/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/Regulardll.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ    /c 
-"D:\Study\131010184\VC++\2016-12-12\LinkLibraryExp\Regulardll\Regulardll.cpp"
-]
-Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2FFA.tmp" 
-Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2FFB.tmp" with contents
-[
-/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/Regulardll.pdb" /debug /machine:I386 /def:".\Regulardll.def" /out:"Debug/Regulardll.dll" /implib:"Debug/Regulardll.lib" /pdbtype:sept 
-".\Debug\Regulardll.obj"
-".\Debug\StdAfx.obj"
-".\Debug\Regulardll.res"
-]
-Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2FFB.tmp"
-<h3>Output Window</h3>
-Compiling...
-Regulardll.cpp
-Linking...
-   Creating library Debug/Regulardll.lib and object Debug/Regulardll.exp
 
 
 
